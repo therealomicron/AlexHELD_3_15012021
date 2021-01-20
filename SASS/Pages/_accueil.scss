@@ -53,8 +53,7 @@ body{
         border-radius: 25px;
         padding: 15px;
         color: white;
-        font-weight: 900;
-        background-image:linear-gradient(to bottom right, $colpri, $colsec);
+        background-image:linear-gradient(to bottom right, $colsec, $colpri);
         margin-bottom: 50px;
     }
 }
@@ -64,6 +63,42 @@ body{
     background-color: $colbg;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    width: 100vw;
+    h2{
+        align-self: flex-start;
+        margin-left: 25px;
+        font-family: Shrikhand;
+    }
+    &__btn {
+        background-color: #f6f6f6;
+        font-family: Roboto;
+        border-radius: 12px;
+        width: 75%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-style: none;
+        box-shadow: 0px 3px 5px 5px #eaeaea;
+        position: relative;
+        z-index: 0;
+        div {
+            position: absolute;
+            border-radius: 50%;
+            padding-left: 7px;
+            padding-right: 8px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            z-index: 1;
+            left: -6px;
+            top: 10px;
+            color: white;
+            background-color: $colpri;
+            border-style: none;
+            text-align: center;
+        }
+    }
 }
 
 .restos {
