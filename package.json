@@ -1,0 +1,19 @@
+{
+  "name": "alexheld_3_15012021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass:css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealomicron/AlexHELD_3_15012021.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealomicron/AlexHELD_3_15012021/issues"
+  },
+  "homepage": "https://github.com/therealomicron/AlexHELD_3_15012021#readme"
+}

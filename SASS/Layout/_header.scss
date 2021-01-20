@@ -1,0 +1,10 @@
+header {
+    background-color: $colbg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width:50vw;
+        height:auto;
+    }
+}

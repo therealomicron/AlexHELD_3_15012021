@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Shrikhand;
+  src: url(police/Shrikhand/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(police/Roboto/Roboto-Regular.ttf);
+}
+.rbt {
+  font-family: Roboto;
+}
+
+.shk {
+  font-family: Shrikhand;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+header {
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header img {
+  width: 50vw;
+  height: auto;
+}
+
+footer {
+  background-color: #353535;
+  color: #ffffff;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #eaeaea;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.position p {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.position i {
+  padding-right: 15px;
+}
+
+.depart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f6f6f6;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+
+.depart h1 {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 900;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.depart p {
+  padding-left: 50px;
+  padding-right: 50px;
+  color: grey;
+  padding-top: 0px;
+}
+
+.depart a {
+  text-decoration: none;
+}
+
+.depart__btn {
+  display: block;
+  border-radius: 25px;
+  padding: 15px;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(pink), to(blueviolet));
+  background-image: linear-gradient(pink, blueviolet);
+  margin-bottom: 25px;
+}
+
+.guide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFF;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.restos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f6f6f6;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */
