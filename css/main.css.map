@@ -14,8 +14,7 @@
         "../SASS/layout/_nav.scss",
         "../SASS/layout/_container.scss",
         "../SASS/layout/_form.scss",
-        "../SASS/pages/_accueil.scss",
-        "../SASS/pages/_menu.scss"
+        "../SASS/pages/_accueil.scss"
     ],
     "names": [],
     "file": "main.css"
