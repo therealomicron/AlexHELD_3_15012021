@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    &__figure {
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;    
+        img {
+            width: 100%;
+            height: 30vh;
+            object-fit: cover;
+            padding: 0;
+            margin: 0;
+            z-index: 0;
+        }
+        figcaption {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            background-color: $colbg2;
+            position:absolute;
+            width: 100vw;
+            bottom: 0px;
+            padding: 0px;
+            margin: 0px;
+            border-top-left-radius: 3 * $rad;
+            border-top-right-radius: 3 * $rad;
+            h1 {
+                margin-left: 25px;
+            }
+            i {
+                position: absolute;
+                right: 40px;
+                bottom: 30px;
+            }
+        }
+    }
+}
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-color: $colbg2;
+    .food {
+        background-color: $colbg;
+        display: flex;
+        flex-direction: row;
+        margin: 15px;
+    }
+}
