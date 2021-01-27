@@ -1,19 +1,19 @@
 @font-face {
-    font-family: Shrikhand;
-    src:url(police/Shrikhand/Shrikhand-Regular.ttf);
+    font-family: "Shrikhand";
+    src:url(../police/Shrikhand/Shrikhand-Regular.ttf);
 }
 
 @font-face {
-    font-family: Roboto;
-    src:url(police/Roboto/Roboto-Regular.ttf)
+    font-family:"Roboto";
+    src:url(../police/Roboto/Roboto-Regular.ttf)
 }
 
 .rbt {
-    font-family: Roboto;
+    font-family: "Roboto";
 }
 
 .shk {
-    font-family: Shrikhand;
+    font-family: "Shrikhand";
 }
 
 strong {

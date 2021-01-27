@@ -2,4 +2,30 @@
 footer {
     background-color: #353535;
     color: #ffffff;
+    width: 100vw;
+    padding-bottom: 40px;
+    p {
+        margin-left: 25px;
+        color: white;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        a {
+            text-decoration: none;
+            color: white;
+            line-height: 2;
+        }
+    }
+}
+
+.fa-hands-helping {
+    font-size: small;
+    padding-right: 5px;
+}
+
+.fa-utensils {
+    font-size: small;
+    padding-right: 10px;
 }
