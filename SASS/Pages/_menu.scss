@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Roboto";
 }
 .photo {
     display: flex;
@@ -81,6 +82,7 @@ body {
             border-bottom-left-radius: $rad;
             border-top-right-radius: $rad;
             border-bottom-right-radius: $rad;
+            font-family:'Roboto';
             p:nth-child(1) {
                 font-weight: 900;
                 grid-column-start: 1;
@@ -127,5 +129,23 @@ body {
         &:hover {
             grid-template-columns: 80% 20%;
         }
+    }
+}
+
+.command {
+    display: flex;
+    justify-content: center;
+    background-color: $colbg2;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    &__btn {
+        display: block;
+        border-radius: 25px;
+        padding: 15px;
+        color: white;
+        background-image:linear-gradient(to bottom right, $colsec, $colpri);
+        margin-bottom: 50px;
+        width: 40vw;
+        font-family: 'Roboto';
     }
 }
