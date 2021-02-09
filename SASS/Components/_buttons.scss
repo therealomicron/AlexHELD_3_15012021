@@ -1,22 +1,17 @@
-@keyframes heart {
-    from {font-weight: 400;}
-    to {font-weight: 900;}
-}
 
 i.btn {
     font-weight:400;
 }
 
-i.btn:active {
-    color: $colpri;
-}
 
 i.btn:hover {
-    color: $colpri;
     animation-name: heart;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-fill-mode: forwards;
     animation-direction: alternate;
+    background-image: linear-gradient(to top right, lighten($colpri, 30%), $colpri);
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
 }

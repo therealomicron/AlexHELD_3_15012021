@@ -3,29 +3,34 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: "Roboto";
-    position: relative;
+    padding: 0px;
+    margin: 0px;
 }
 
-@keyframes spin {
-    0% {transform: rotate(0deg); }
-    100% {transform: rotate(360deg); }
+
+.cover {
+    display: flex;
+    background-color: $colter;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0;
+    animation: disappear 2s linear 1;
+    margin: 0;
+    padding: 0;
 }
 
-@keyframes disappear {
-    0% {opacity: 100;}
-    100% {opacity: 0;}
+.appear {
+    animation: appear 4s linear 1;    
 }
 
 .loader {
-    position: absolute;
-    border-top: 16px solid $colpri;
-    border-bottom: 16px solid $colpri;
-    border-left: 16px solid $colsec;
-    border-right: 16px solid $colsec;
+    border-top-color: $colpri;
+    border-bottom-color: $colpri;
+    border-left-color: $colsec;
+    border-right-color: $colsec;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
-    animation: spin 2s linear 1;
+    animation: spin 2s linear 1, spinkill 2s linear 1; 
 }
 
 .position {
