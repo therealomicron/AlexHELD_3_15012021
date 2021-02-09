@@ -364,8 +364,8 @@ body {
 }
 
 .depart__btn:hover {
-  -webkit-box-shadow: 0px 4px 6px 6px #b7b7b7;
-          box-shadow: 0px 4px 6px 6px #b7b7b7;
+  -webkit-box-shadow: 0px 4px 6px 6px #d1d1d1;
+          box-shadow: 0px 4px 6px 6px #d1d1d1;
 }
 
 .guide {
@@ -419,8 +419,8 @@ body {
 }
 
 .guide__btn:hover {
-  -webkit-box-shadow: 0px 4px 6px 6px #b7b7b7;
-          box-shadow: 0px 4px 6px 6px #b7b7b7;
+  -webkit-box-shadow: 0px 4px 6px 6px #d1d1d1;
+          box-shadow: 0px 4px 6px 6px #d1d1d1;
   background-color: #e9e9e9;
 }
 
@@ -492,8 +492,8 @@ body {
 }
 
 .resto__carte:hover {
-  -webkit-box-shadow: 0px 4px 6px 6px #b7b7b7;
-          box-shadow: 0px 4px 6px 6px #b7b7b7;
+  -webkit-box-shadow: 0px 4px 6px 6px #d1d1d1;
+          box-shadow: 0px 4px 6px 6px #d1d1d1;
   background-color: #f2f2f2;
 }
 
