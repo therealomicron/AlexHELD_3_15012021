@@ -12,6 +12,7 @@ i.btn:hover {
     animation-fill-mode: forwards;
     animation-direction: alternate;
     background-image: linear-gradient(to top right, lighten($colpri, 30%), $colpri);
-    background-clip: text; 
+    background-clip: text;
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }

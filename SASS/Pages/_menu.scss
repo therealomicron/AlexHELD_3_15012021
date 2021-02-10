@@ -136,6 +136,7 @@ body {
             border-top-right-radius: $rad;
             border-bottom-right-radius: $rad;
             font-family:'Roboto';
+            height: 100%;
             p:nth-child(1) {
                 font-weight: 900;
                 grid-column-start: 1;
