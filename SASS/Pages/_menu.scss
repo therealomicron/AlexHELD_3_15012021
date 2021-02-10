@@ -108,13 +108,15 @@ body {
    }
     .food {
         background-color: $colbg;
-        display: grid;
+        overflow: hidden;
+        display: flex;
+        /*display: grid;*/
         margin: 15px;
-        grid-template-columns: 100%  0%;
+        /*grid-template-columns: 100%  0%;
         grid-template-rows: 100%;
         transition-property: grid-template-columns;
         transition-duration: 0.51s;
-        transition-timing-function: linear;
+        transition-timing-function: linear;*/
         padding: 0px;
         border-style: none;
         border-radius: $rad;
@@ -137,6 +139,11 @@ body {
             border-bottom-right-radius: $rad;
             font-family:'Roboto';
             height: 100%;
+            width:100%;
+            flex: none;
+            transition-property: width;
+            transition-duration: 0.51s;
+            transition-timing-function: linear;
             p:nth-child(1) {
                 font-weight: 900;
                 grid-column-start: 1;
@@ -193,9 +200,13 @@ body {
             @include hoverbg($colbg);
             .food__text {
                 @include hoverbg($colbg);
+                width: 80%;
             }
             i {
                 animation: spin 1s linear 1;
+            }
+            .food__check {
+                width: 20%
             }
         }
     }

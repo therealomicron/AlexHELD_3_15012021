@@ -475,20 +475,17 @@ body {
 
 .menu .food {
   background-color: #FFF;
-  display: -ms-grid;
-  display: grid;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*display: grid;*/
   margin: 15px;
-  -ms-grid-columns: 100%  0%;
-      grid-template-columns: 100%  0%;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
-  -webkit-transition-property: grid-template-columns;
-  transition-property: grid-template-columns;
-  transition-property: grid-template-columns, -ms-grid-columns;
-  -webkit-transition-duration: 0.51s;
-          transition-duration: 0.51s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
+  /*grid-template-columns: 100%  0%;
+        grid-template-rows: 100%;
+        transition-property: grid-template-columns;
+        transition-duration: 0.51s;
+        transition-timing-function: linear;*/
   padding: 0px;
   border-style: none;
   border-radius: 12px;
@@ -519,6 +516,16 @@ body {
   border-bottom-right-radius: 12px;
   font-family: 'Roboto';
   height: 100%;
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 0.51s;
+          transition-duration: 0.51s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
 }
 
 .menu .food__text p:nth-child(1) {
@@ -601,11 +608,16 @@ body {
 
 .menu .food:hover .food__text {
   background-color: #f2f2f2;
+  width: 80%;
 }
 
 .menu .food:hover i {
   -webkit-animation: spin 1s linear 1;
           animation: spin 1s linear 1;
+}
+
+.menu .food:hover .food__check {
+  width: 20%;
 }
 
 @media screen and (min-width: 721px) and (max-width: 1280px) {
