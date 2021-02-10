@@ -584,6 +584,7 @@ body {
   -ms-grid-rows: 33% 33% 33%;
       grid-template-rows: 33% 33% 33%;
   height: 100%;
+  width: 20%;
 }
 
 .menu .food__check i {
@@ -614,10 +615,6 @@ body {
 .menu .food:hover i {
   -webkit-animation: spin 1s linear 1;
           animation: spin 1s linear 1;
-}
-
-.menu .food:hover .food__check {
-  width: 20%;
 }
 
 @media screen and (min-width: 721px) and (max-width: 1280px) {

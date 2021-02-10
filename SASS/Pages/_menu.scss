@@ -187,6 +187,7 @@ body {
            grid-template-columns: 33% 33% 33%;
            grid-template-rows: 33% 33% 33%;
            height: 100%;
+           width: 20%;
            i {
                grid-column-start: 2;
                grid-row-start: 2;
@@ -204,9 +205,6 @@ body {
             }
             i {
                 animation: spin 1s linear 1;
-            }
-            .food__check {
-                width: 20%
             }
         }
     }
