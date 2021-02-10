@@ -2,6 +2,48 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto";
+    @media screen and (min-width: 1281px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .photo {
+            width: 70%;
+            margin: 0px;
+            &__figure {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                background-color: $colbg2;
+                flex-direction: column-reverse;
+                img {
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                    border-top-right-radius: 3 * $rad;
+                    border-bottom-right-radius: 3 * $rad;
+                }
+                figcaption {
+                    position: static;
+                    width: 100%;
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 0px;
+                    i {
+                        bottom: initial;
+                        top: 30px;
+                    }
+                }
+            }
+        }
+        .menu {
+            width: 30%;
+            margin: 0px;
+        }
+        .command {
+            width: 100%;
+        }
+
+        
+    }
 }
 .photo {
     display: flex;
@@ -155,6 +197,18 @@ body {
             }
         }
     }
+    @media screen and (min-width: 721px) and (max-width: 1280px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .course {
+            width: 100%;
+            text-align: center;
+        }
+        .food {
+            width: 45%;
+        }
+    }
 }
 
 .command {
@@ -172,5 +226,10 @@ body {
         margin-bottom: 50px;
         width: 40vw;
         font-family: 'Roboto';
+        @include shadow;
+    }
+    &__btn:hover {
+        @include hovershadow;
+        background-image:linear-gradient(to bottom right, darken($colsec, 10%), darken($colpri, 10%));
     }
 }

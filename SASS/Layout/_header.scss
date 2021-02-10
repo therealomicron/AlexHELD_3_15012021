@@ -4,6 +4,7 @@ header {
     flex-direction: column;
     align-items: center;
     position: relative;
+    width: 100%;
     i {
         position: absolute;
         top: 2vh;
@@ -12,6 +13,12 @@ header {
     img {
         width:50vw;
         height:auto;
+        @media screen and (min-width: 721px) and (max-width: 1280px) {
+            width: 33vw;
+        }
+        @media screen and (min-width: 1281px) {
+            width: 25vw;
+        }
     }
     padding-bottom: 10px;
 }

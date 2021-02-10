@@ -176,6 +176,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  width: 100%;
   padding-bottom: 10px;
 }
 
@@ -188,6 +189,18 @@ header i {
 header img {
   width: 50vw;
   height: auto;
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+  header img {
+    width: 33vw;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  header img {
+    width: 25vw;
+  }
 }
 
 footer {
@@ -203,6 +216,12 @@ footer p {
   color: white;
 }
 
+@media screen and (min-width: 721px) {
+  footer p {
+    text-align: center;
+  }
+}
+
 footer nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,10 +233,28 @@ footer nav {
   margin-left: 20px;
 }
 
+@media screen and (min-width: 721px) {
+  footer nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 footer nav a {
   text-decoration: none;
   color: white;
   line-height: 2;
+}
+
+@media screen and (min-width: 721px) {
+  footer nav a {
+    margin: 20px;
+  }
 }
 
 .fa-hands-helping {
@@ -353,6 +390,7 @@ body {
 
 .depart__btn {
   display: block;
+  font-family: Roboto;
   border-radius: 25px;
   padding: 15px;
   color: white;
@@ -366,6 +404,8 @@ body {
 .depart__btn:hover {
   -webkit-box-shadow: 0px 4px 6px 6px #d1d1d1;
           box-shadow: 0px 4px 6px 6px #d1d1d1;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff46cc), to(#782cd3));
+  background-image: linear-gradient(to bottom right, #ff46cc, #782cd3);
 }
 
 .guide {
@@ -382,6 +422,24 @@ body {
           align-items: center;
   position: relative;
   width: 100vw;
+}
+
+@media screen and (min-width: 1281px) {
+  .guide {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .guide h2 {
+    width: 100vw;
+    text-align: center;
+  }
 }
 
 .guide h2 {
@@ -424,6 +482,20 @@ body {
   background-color: #e9e9e9;
 }
 
+@media screen and (min-width: 1281px) {
+  .guide__btn {
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: space-around;
+        -ms-flex-align: space-around;
+            align-items: space-around;
+  }
+}
+
 .guide__btn i {
   padding-right: 15px;
 }
@@ -459,10 +531,44 @@ body {
   width: 100vw;
 }
 
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+  .resto {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .resto {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .resto h2 {
   margin-left: 10px;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  width: 100%;
+}
+
+@media screen and (min-width: 721px) {
+  .resto h2 {
+    text-align: center;
+  }
 }
 
 .resto a {
@@ -471,6 +577,13 @@ body {
   text-decoration: none;
   color: black;
   font-family: "Roboto";
+}
+
+@media screen and (min-width: 721px) {
+  .resto a {
+    width: 40%;
+    margin-bottom: 20px;
+  }
 }
 
 .resto__carte {

@@ -8,15 +8,25 @@ footer {
     p {
         margin-left: 25px;
         color: white;
+        @media screen and(min-width: 721px) {
+            text-align: center;
+        }
     }
     nav {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
+        @media screen and (min-width: 721px) {
+            flex-direction: row;
+            justify-content: center;
+        }
         a {
             text-decoration: none;
             color: white;
             line-height: 2;
+            @media screen and (min-width: 721px) {
+                margin: 20px;
+            }
         }
     }
 }
