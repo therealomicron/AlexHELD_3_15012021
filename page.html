@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>ohmyfood</title>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
         <link rel="stylesheet" href="css/main.css" />
         <script src="https://kit.fontawesome.com/974a47a886.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 
     <body>
@@ -21,23 +23,21 @@
         <section class="depart">
             <h1 class="shk"><strong>Réservez le menu qui vous convient</strong></h1>
             <p class="rbt">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-            <a href="#resto">
-                <button class="depart__btn btn" type="button">Explorer nos restaurants</button>
-            </a>
+            <button class="depart__btn btn" type="button"><a href="#resto">Explorer nos restaurants</a></button>
         </section>
         
         <section class="guide"> 
             <h2>Fonctionnement</h2>
-            <button class="guide__btn btn"><div>1</div><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</button>
-            <button class="guide__btn btn"><div>2</div><i class="fas fa-list-ul"></i>Composez votre menu</button>
-            <button class="guide__btn btn"><div>3</div><i class="fas fa-store"></i>Dégustez au restaurant</button>
+            <button class="guide__btn btn"><span>1</span><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</button>
+            <button class="guide__btn btn"><span>2</span><i class="fas fa-list-ul"></i>Composez votre menu</button>
+            <button class="guide__btn btn"><span>3</span><i class="fas fa-store"></i>Dégustez au restaurant</button>
         </section>
 
         <section class="resto" id="resto">
             <h2>Restaurants</h2>
             <a href="lapalette.html">
                 <figure class="resto__carte">
-                    <img src="public/images/palette.jpg">
+                    <img src="public/images/palette.jpg" alt="Standard affair for a restaurant of this type">
                     <span class="label">Nouveau</span>
                     <figcaption>
                         <div class="resto__carte__text">
@@ -50,7 +50,7 @@
             </a>
             <a href="lanote.html">
                 <figure class="resto__carte">
-                    <img src="public/images/note.jpg">
+                    <img src="public/images/note.jpg" alt="Standard affair for a restaurant of this type">
                     <span class="label">Nouveau</span>
                     <figcaption>
                         <div class="resto__carte__text">
@@ -63,7 +63,7 @@
             </a>
             <a href="alafra.html">
                 <figure class="resto__carte">
-                    <img src="public/images/franc.jpg">
+                    <img src="public/images/franc.jpg" alt="Standard affair for a restaurant of this type">
                     <figcaption>
                         <div class="resto__carte__text">
                             <p><strong>À la française</strong></p>
@@ -75,7 +75,7 @@
             </a>
             <a href="ledelice.html">
                 <figure class="resto__carte">
-                    <img src="public/images/delice.jpg">
+                    <img src="public/images/delice.jpg" alt="Standard affair for a restaurant of this type">
                     <figcaption>
                         <div class="resto__carte__text">
                             <p><strong>Le délice des sens</strong></p>

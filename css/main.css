@@ -498,7 +498,7 @@ body {
   padding-right: 15px;
 }
 
-.guide__btn div {
+.guide__btn span {
   position: absolute;
   border-radius: 50%;
   padding-left: 7px;
